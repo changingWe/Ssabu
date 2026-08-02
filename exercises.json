@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "exercises": [
        {
       "id": "EX_SQUAT",
@@ -217,7 +217,6 @@
       "intermediateGuide": "사이드 스텝 후 깊게 사이드 런지로 체중을 실어 제동하기 양쪽 12회 3세트",
       "advancedGuide": "빠른 속도로 좌우 사이드 스텝 터치 20초 4세트"
     },
-    [
   {
     "id": "EX_BOXING_ROADWORK",
     "name": "로드워크",
