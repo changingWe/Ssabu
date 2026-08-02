@@ -140,25 +140,35 @@
   "expertJson": [
     {
       "courseCategory": "BOXING",
-      "title": "권투 (준비중)",
+      "title": "복싱",
       "description": "상체 스피드와 체계적인 풋워크를 활용한 심폐 지구력 및 스텝 단련 수련",
       "iconEmoji": "🥊",
       "schedules": [
         {
-          "exerciseId": "EX_STRETCH",
+          "exerciseId": "EX_BOXING_ROADWORK",
           "startOffsetDays": 0,
-          "durationDays": 7
-        },
-        {
-          "exerciseId": "EX_QUICK_FEET",
-          "startOffsetDays": 7,
-          "durationDays": 14
+          "durationDays": 28
         },
         {
           "exerciseId": "EX_BOXING_SHADOW",
-          "startOffsetDays": 21,
-          "durationDays": 14
-        }
+          "startOffsetDays": 0,
+          "durationDays": 28
+        },
+        {
+          "exerciseId": "EX_BOXING_HEAVYBAG",
+          "startOffsetDays": 14,
+          "durationDays": 28
+        },
+         {
+          "exerciseId": "EX_BOXING_JUMPROPE",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        },
+        {
+          "exerciseId": "EX_BOXING_SPEEDBAG",
+          "startOffsetDays": 14,
+          "durationDays": 28
+        },
       ]
     },
     {
