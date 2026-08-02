@@ -3,8 +3,8 @@
   "exercises": [
     {
       "id": "테스트_SQUAT",
-      "name": "테스트 스쿼트",
-      "hanjaName": "屈伸勢",
+      "name": "테스트 스쿼트2",
+      "hanjaName": "屈伸勢2",
       "category": "STRENGTH",
       "iconEmoji": "💪",
       "sortOrder": 10,
