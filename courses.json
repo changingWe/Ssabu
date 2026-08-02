@@ -1,9 +1,9 @@
 {
-  "version": 3,
+  "version": 4,
   "commonJson": [
     {
       "courseCategory": "HEALTH_CARE",
-      "title": "기초 체력 코스",
+      "title": "기초 체력 코스_1",
       "description": "관절 무리 없이 혈압·혈당을 관리하고 심혈관을 튼튼히 다지는 건강 코스",
       "iconEmoji": "🌿",
       "schedules": [
