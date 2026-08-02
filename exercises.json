@@ -109,18 +109,7 @@
       "intermediateGuide": "리듬감을 타고 끊김 없이 매끄럽게 15회 4세트",
       "advancedGuide": "손을 짚을 때 무릎 대고 푸시업 1회를 추가 연계하여 15회 4세트"
     },
-    {
-      "id": "EX_SHADOW_BOXING",
-      "name": "복싱 풋워크",
-      "hanjaName": "身影步",
-      "category": "ENDURANCE",
-      "iconEmoji": "🥊",
-      "sortOrder": 100,
-      "description": "권투의 라운드 개념을 적용하여 가볍게 리듬을 타고 펀치를 내밀며 심폐지구력 단련",
-      "beginnerGuide": "제자리에서 스텝을 밟으며 가볍게 잽-스트레이트 1분 3라운드",
-      "intermediateGuide": "전후좌우 스텝과 함께 잽-원투 콤비네이션 연계 2분 3라운드",
-      "advancedGuide": "위빙/더킹 자세를 섞어가며 쉬지 않고 폭발적 가상 타격 3분 3라운드"
-    },
+  
     {
       "id": "EX_STRETCH",
       "name": "관절 스트레칭",
@@ -221,7 +210,7 @@
     "id": "EX_BOXING_ROADWORK",
     "name": "로드워크",
     "hanjaName": "로-드워크",
-    "category": "CARDIO",
+    "category": "ENDURANCE",
     "iconEmoji": "🏃",
     "sortOrder": 50,
     "description": "야외 러닝과 인터벌 스텝을 통해 하체 관절을 보호하며 심폐 지구력과 페이스 조절 능력을 기르는 훈련",
@@ -233,7 +222,7 @@
     "id": "EX_BOXING_SHADOW",
     "name": "섀도우 복싱",
     "hanjaName": "影打法",
-    "category": "TECHNIQUE",
+    "category": "ENDURANCE",
     "iconEmoji": "🥊",
     "sortOrder": 60,
     "description": "거울을 보며 허공을 상대로 펀치와 풋워크, 방어 자세를 구사하여 상하체 협응력과 폼을 교정하는 수련",
@@ -269,7 +258,7 @@
     "id": "EX_BOXING_JUMPROPE",
     "name": "줄넘기",
     "hanjaName": "跳繩術",
-    "category": "CARDIO",
+    "category": "AGILITY",
     "iconEmoji": "🪢",
     "sortOrder": 90,
     "description": "발끝으로 가볍게 뛰며 종아리와 발목 관절의 탄력, 민첩한 풋워크를 위한 전신 유산소 순발력 향상",
