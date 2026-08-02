@@ -99,7 +99,7 @@
     },
     {
       "id": "EX_WALK",
-      "name": "만보 걷기",
+      "name": "만보 걷기_2",
       "hanjaName": "循行步",
       "category": "ENDURANCE",
       "iconEmoji": "🏃",
@@ -135,7 +135,7 @@
     },
     {
       "id": "EX_STRETCH",
-      "name": "관절 스트레칭",
+      "name": "관절 스트레칭_2",
       "hanjaName": "弛筋法",
       "category": "FLEXIBILITY",
       "iconEmoji": "🧘",
