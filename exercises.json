@@ -1,18 +1,6 @@
 {
-  "version": 4,
+  "version": 5,
   "exercises": [
-    {
-      "id": "테스트_SQUAT",
-      "name": "테스트 스쿼트3333",
-      "hanjaName": "屈伸勢2",
-      "category": "STRENGTH",
-      "iconEmoji": "💪",
-      "sortOrder": 10,
-      "description": "하체 내공의 기본이자 무릎 관절 보호, 경공술의 주춧돌이 되는 운동",
-      "beginnerGuide": "의자나 벽을 잡고 안전하게 관절 각도 90도까지만 15회 3세트",
-      "intermediateGuide": "도움 없이 맨몸으로 깊게 앉았다가 허벅지와 엉덩이 힘으로 20회 4세트",
-      "advancedGuide": "내려간 상태에서 2초간 멈췄다가 폭발적으로 올라오는 정지 스쿼트 20회 5세트"
-    },
        {
       "id": "EX_SQUAT",
       "name": "스쿼트",
@@ -99,7 +87,7 @@
     },
     {
       "id": "EX_WALK",
-      "name": "만보 걷기_2",
+      "name": "만보 걷기",
       "hanjaName": "循行步",
       "category": "ENDURANCE",
       "iconEmoji": "🏃",
@@ -135,7 +123,7 @@
     },
     {
       "id": "EX_STRETCH",
-      "name": "관절 스트레칭_2",
+      "name": "관절 스트레칭",
       "hanjaName": "弛筋法",
       "category": "FLEXIBILITY",
       "iconEmoji": "🧘",
