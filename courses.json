@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "commonJson": [
+    {
+      "courseCategory": "HEALTH_CARE",
+      "title": "기초 체력 코스",
+      "description": "관절 무리 없이 혈압·혈당을 관리하고 심혈관을 튼튼히 다지는 건강 코스",
+      "iconEmoji": "🌿",
+      "schedules": [
+        {
+          "exerciseId": "EX_STRETCH",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        },
+        {
+          "exerciseId": "EX_WALK",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        },
+        {
+          "exerciseId": "EX_SIDE_STEP",
+          "startOffsetDays": 0,
+          "durationDays": 14
+        },
+        {
+          "exerciseId": "EX_YOGA",
+          "startOffsetDays": 15,
+          "durationDays": 13
+        }
+      ]
+    },
+    {
+      "courseCategory": "FITNESS_BOOST",
+      "title": "근력 빌드업 코스",
+      "description": "근육량 소실을 방어하고 상·하체 저항력을 극한으로 끌어올리는 근력 코스",
+      "iconEmoji": "💪",
+      "schedules": [
+        {
+          "exerciseId": "EX_STRETCH",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        },
+        {
+          "exerciseId": "EX_SQUAT",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        },
+        {
+          "exerciseId": "EX_PUSHUP",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        },
+        {
+          "exerciseId": "EX_PLANK",
+          "startOffsetDays": 14,
+          "durationDays": 14
+        }
+      ]
+    },
+    {
+      "courseCategory": "POSTURE_BALANCE",
+      "title": "자세 교정 & 균형 코스",
+      "description": "무너진 체형을 바로잡고 일상 속 낙상 위험을 원천 방어하는 신체 제어 코스",
+      "iconEmoji": "🧘",
+      "schedules": [
+        {
+          "exerciseId": "EX_STRETCH",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        },
+        {
+          "exerciseId": "EX_SIDE_STEP",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        },
+        {
+          "exerciseId": "EX_PLANK",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        }
+      ]
+    },
+    {
+      "courseCategory": "SKILL_AGILITY",
+      "title": "민첩성 코스",
+      "description": "신체 반응 속도를 높이고 안전 랜딩 기법을 익히는 무공 코스",
+      "iconEmoji": "🤸",
+      "schedules": [
+        {
+          "exerciseId": "EX_STRETCH",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        },
+        {
+          "exerciseId": "EX_SQUAT",
+          "startOffsetDays": 0,
+          "durationDays": 14
+        },
+        {
+          "exerciseId": "EX_LANDING",
+          "startOffsetDays": 15,
+          "durationDays": 13
+        },
+        {
+          "exerciseId": "EX_VAULT",
+          "startOffsetDays": 21,
+          "durationDays": 7
+        }
+      ]
+    },
+    {
+      "courseCategory": "MIND_CARDIO",
+      "title": "심폐 강화 코스",
+      "description": "인터벌 러닝과 호흡 조절로 지치지 않는 스태미나와 평정심을 완성하는 코스",
+      "iconEmoji": "🌊",
+      "schedules": [
+        {
+          "exerciseId": "EX_STRETCH",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        },
+        {
+          "exerciseId": "EX_WALK",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        },
+        {
+          "exerciseId": "EX_RUN",
+          "startOffsetDays": 14,
+          "durationDays": 14
+        },
+        {
+          "exerciseId": "EX_YOGA",
+          "startOffsetDays": 0,
+          "durationDays": 28
+        }
+      ]
+    }
+  ],
+  "expertJson": [
+    {
+      "courseCategory": "BOXING",
+      "title": "권투 (준비중)",
+      "description": "상체 스피드와 체계적인 풋워크를 활용한 심폐 지구력 및 스텝 단련 수련",
+      "iconEmoji": "🥊",
+      "schedules": [
+        {
+          "exerciseId": "EX_STRETCH",
+          "startOffsetDays": 0,
+          "durationDays": 7
+        },
+        {
+          "exerciseId": "EX_QUICK_FEET",
+          "startOffsetDays": 7,
+          "durationDays": 14
+        },
+        {
+          "exerciseId": "EX_BOXING_SHADOW",
+          "startOffsetDays": 21,
+          "durationDays": 14
+        }
+      ]
+    },
+    {
+      "courseCategory": "SYSTEMA",
+      "title": "시스테마 (준비중)",
+      "description": "특수부대 무술 원리를 적용한 호흡 중심의 긴장 해제 및 바디 컨트롤 수련",
+      "iconEmoji": "🛡️",
+      "schedules": [
+        {
+          "exerciseId": "EX_BREATHING",
+          "startOffsetDays": 0,
+          "durationDays": 7
+        },
+        {
+          "exerciseId": "EX_RELAX_FLOW",
+          "startOffsetDays": 7,
+          "durationDays": 14
+        },
+        {
+          "exerciseId": "EX_FALL_SAFETY",
+          "startOffsetDays": 21,
+          "durationDays": 14
+        }
+      ]
+    },
+    {
+      "courseCategory": "WINGCHUN",
+      "title": "영춘권 (준비중)",
+      "description": "중심선 통제와 팔관절 저항력을 다지는 상체 정밀 제어 수련",
+      "iconEmoji": "🥋",
+      "schedules": [
+        {
+          "exerciseId": "EX_CENTERLINE_STANCE",
+          "startOffsetDays": 0,
+          "durationDays": 7
+        },
+        {
+          "exerciseId": "EX_ELBOW_ELASTIC",
+          "startOffsetDays": 7,
+          "durationDays": 14
+        },
+        {
+          "exerciseId": "EX_SHORT_PUNCH",
+          "startOffsetDays": 21,
+          "durationDays": 14
+        }
+      ]
+    },
+    {
+      "courseCategory": "CLIMBING",
+      "title": "클라이밍 (준비중)",
+      "description": "벽을 타는 경공의 원리를 응용한 전완근, 악력 및 상체 당기기 수련",
+      "iconEmoji": "🧗",
+      "schedules": [
+        {
+          "exerciseId": "EX_DEAD_HANG",
+          "startOffsetDays": 0,
+          "durationDays": 7
+        },
+        {
+          "exerciseId": "EX_INVERTED_ROW",
+          "startOffsetDays": 7,
+          "durationDays": 14
+        },
+        {
+          "exerciseId": "EX_PULL_UP_HOLD",
+          "startOffsetDays": 21,
+          "durationDays": 14
+        }
+      ]
+    },
+    {
+      "courseCategory": "MOBILITY_YOGA",
+      "title": "모빌리티 요가 (준비중)",
+      "description": "관절 가동 범위를 넓히고 신체 유연성을 극대화하는 밸런스 수련",
+      "iconEmoji": "🧘",
+      "schedules": [
+        {
+          "exerciseId": "EX_SPINE_SPLIT",
+          "startOffsetDays": 0,
+          "durationDays": 7
+        },
+        {
+          "exerciseId": "EX_HIP_OPEN",
+          "startOffsetDays": 7,
+          "durationDays": 14
+        },
+        {
+          "exerciseId": "EX_DYNAMIC_FLOW",
+          "startOffsetDays": 21,
+          "durationDays": 14
+        }
+      ]
+    }
+  ]
+}
