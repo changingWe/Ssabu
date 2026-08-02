@@ -216,6 +216,67 @@
       "beginnerGuide": "좌우로 두 걸음씩 사이드 스텝 이동 후 가볍게 무릎 굽히기 10회 3세트",
       "intermediateGuide": "사이드 스텝 후 깊게 사이드 런지로 체중을 실어 제동하기 양쪽 12회 3세트",
       "advancedGuide": "빠른 속도로 좌우 사이드 스텝 터치 20초 4세트"
-    }
+    },
+    [
+  {
+    "id": "EX_BOXING_ROADWORK",
+    "name": "로드워크",
+    "hanjaName": "로-드워크",
+    "category": "CARDIO",
+    "iconEmoji": "🏃",
+    "sortOrder": 50,
+    "description": "야외 러닝과 인터벌 스텝을 통해 하체 관절을 보호하며 심폐 지구력과 페이스 조절 능력을 기르는 훈련",
+    "beginnerGuide": "가벼운 평지 걷기와 제자리 잔발 스텝을 번갈아가며 무리 없이 20분 유지하기",
+    "intermediateGuide": "보폭을 넓히고 가벼운 조깅과 고속 스텝을 섞어 30분 동안 지속적인 심폐 자극 주기",
+    "advancedGuide": "오르막 구간을 포함한 파쿠르식 지형 러닝과 고강도 인터벌 스텝을 결합하여 40분 완주"
+  },
+  {
+    "id": "EX_BOXING_SHADOW",
+    "name": "섀도우 복싱",
+    "hanjaName": "影打法",
+    "category": "TECHNIQUE",
+    "iconEmoji": "🥊",
+    "sortOrder": 60,
+    "description": "거울을 보며 허공을 상대로 펀치와 풋워크, 방어 자세를 구사하여 상하체 협응력과 폼을 교정하는 수련",
+    "beginnerGuide": "제자리에서 거울을 보며 어깨에 힘을 빼고 가벼운 잽과 기본 스텝을 3세트 반복하기",
+    "intermediateGuide": "상체 회전(위빙)을 추가하여 공격과 방어가 유기적으로 연결되도록 3분 4세트 수행",
+    "advancedGuide": "실전 대련 상황을 상정하고 폭발적인 스피드와 연속 콤비네이션을 3분 5세트 완벽 제어"
+  },
+  {
+    "id": "EX_BOXING_HEAVYBAG",
+    "name": "샌드백 타격",
+    "hanjaName": "鐵拳擊",
+    "category": "STRENGTH",
+    "iconEmoji": "🥋",
+    "sortOrder": 70,
+    "description": "묵직한 타격을 통해 순간적인 힘의 전달과 손목·어깨 관절의 지지력, 코어 회전력을 단련하는 수련",
+    "beginnerGuide": "손목 보호대를 착용하고 벽 밀기 및 무릎 푸시업으로 상반신 저항력을 기른 뒤 가벼운 잽 타격 15회 3세트",
+    "intermediateGuide": "허리와 코어의 회전을 온전히 실어 스트레이트와 훅 타격을 20회 4세트 수행",
+    "advancedGuide": "체중을 실은 강력한 연타 타격과 순간 제동을 콤비네이션으로 묶어 4세트 극한 단련"
+  },
+  {
+    "id": "EX_BOXING_SPEEDBAG",
+    "name": "스피드 백",
+    "hanjaName": "速打球",
+    "category": "AGILITY",
+    "iconEmoji": "⏱️",
+    "sortOrder": 80,
+    "description": "공중에 매달린 공을 일정한 리듬으로 연속 타격하여 상체 지구력, 반사 신경, 손과 눈의 협응력을 극대화",
+    "beginnerGuide": "제자리에서 양손을 번갈아가며 가볍게 리듬을 맞춰 스피드백을 1분간 치는 연습 3세트",
+    "intermediateGuide": "눈과 손의 타이밍을 일치시켜 끊김 없이 일정한 속도로 2분간 연속 타격 4세트",
+    "advancedGuide": "최고 속도의 리듬을 유지하며 눈을 감고도 박자를 맞출 수 있는 고도의 반사 신경 수련"
+  },
+  {
+    "id": "EX_BOXING_JUMPROPE",
+    "name": "줄넘기",
+    "hanjaName": "跳繩術",
+    "category": "CARDIO",
+    "iconEmoji": "🪢",
+    "sortOrder": 90,
+    "description": "발끝으로 가볍게 뛰며 종아리와 발목 관절의 탄력, 민첩한 풋워크를 위한 전신 유산소 순발력 향상",
+    "beginnerGuide": "발목과 무릎에 무리가 가지 않도록 바닥을 낮게 치며 기본 양발 뛰기 1분 3세트",
+    "intermediateGuide": "좌우 교차 뛰기와 가벼운 리듬 스텝을 섞어 2분 4세트 지속",
+    "advancedGuide": "고강도 이단 뛰기 및 빠른 스피드 줄넘기로 심폐 지구력과 하체 탄력을 한계까지 끌어올리기"
+  }
   ]
 }
