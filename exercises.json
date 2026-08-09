@@ -1,17 +1,19 @@
 {
-  "version": 6,
+  "version": 2,
   "exercises": [
-       {
+    {
       "id": "EX_SQUAT",
       "name": "스쿼트",
       "hanjaName": "屈伸勢",
       "category": "STRENGTH",
       "iconEmoji": "💪",
-      "sortOrder": 10,
-      "description": "하체 내공의 기본이자 무릎 관절 보호, 경공술의 주춧돌이 되는 운동",
-      "beginnerGuide": "의자나 벽을 잡고 안전하게 관절 각도 90도까지만 15회 3세트",
-      "intermediateGuide": "도움 없이 맨몸으로 깊게 앉았다가 허벅지와 엉덩이 힘으로 20회 4세트",
-      "advancedGuide": "내려간 상태에서 2초간 멈췄다가 폭발적으로 올라오는 정지 스쿼트 20회 5세트"
+      "sortOrder": 1,
+      "unitType": "COUNT",
+      "targetValue": 20,
+      "setsCount": 3,
+      "incrementStep": 1,
+      "beginnerGuide": "의자나 벽을 가볍게 짚고 무릎에 무리가 가지 않도록 안전하게 90도 각도까지만 내려갑니다.\n허벅지와 엉덩이에 온전히 힘을 실어 천천히 일어서는 감각을 익힙니다.",
+      "advancedGuide": "도움 없이 맨몸으로 깊게 앉았다가 허벅지와 엉덩이의 폭발적인 반동으로 일어섭니다.\n내려간 상태에서 2초간 정지하여 근육의 수축력을 극한까지 끌어올립니다."
     },
     {
       "id": "EX_PUSHUP",
@@ -19,11 +21,13 @@
       "hanjaName": "鐵壁掌",
       "category": "STRENGTH",
       "iconEmoji": "💪",
-      "sortOrder": 20,
-      "description": "상체 밀기 근력과 펀치 지탱력, 장애물을 밀고 올라갈 어깨를 다지는 무공",
-      "beginnerGuide": "무릎을 바닥에 대거나 벽/침대 모서리를 짚고 상체 각도를 올려 12회 3세트",
-      "intermediateGuide": "정식 자세로 머리부터 발끝까지 일직선을 유지하며 바닥에서 15회 4세트",
-      "advancedGuide": "내려갈 때 3초간 천천히 버티고 1초 만에 밀어올리는 저항 푸시업 15회 4세트"
+      "sortOrder": 2,
+      "unitType": "COUNT",
+      "targetValue": 15,
+      "setsCount": 3,
+      "incrementStep": 1,
+      "beginnerGuide": "무릎을 바닥에 대거나 벽/침대 모서리를 짚어 상체 부하를 낮춘 후 안전하게 실시합니다.\n팔꿈치가 바깥쪽으로 벌어지지 않도록 옆구리 쪽으로 붙여 내려갑니다.",
+      "advancedGuide": "머리부터 발끝까지 철판처럼 일직선을 유지하며 바닥에서 정식 규격으로 밀어 올립니다.\n내려갈 때 3초간 천천히 버티는 저항 운동으로 삼두와 어깨 내공을 다집니다."
     },
     {
       "id": "EX_PLANK",
@@ -31,11 +35,13 @@
       "hanjaName": "靜身軸",
       "category": "STRENGTH",
       "iconEmoji": "💪",
-      "sortOrder": 30,
-      "description": "복부와 척추 주변 코어의 신체 제어력 및 중심축을 극대화하는 무공",
-      "beginnerGuide": "팔꿈치를 대고 무릎을 바닥에 붙인 상태로 배에 힘을 주며 30초 유지 3세트",
-      "intermediateGuide": "무릎을 떼고 정식 플랭크 자세로 골반이 처지지 않게 1분 유지 3세트",
-      "advancedGuide": "플랭크 자세에서 한쪽 다리를 번갈아 들며 중심을 잡는 버티기 1분 4세트"
+      "sortOrder": 3,
+      "unitType": "SECOND",
+      "targetValue": 40,
+      "setsCount": 3,
+      "incrementStep": 2,
+      "beginnerGuide": "팔꿈치를 바닥에 대고 무릎을 바닥에 붙인 안전한 자세로 복부에 단단히 힘을 줍니다.\n허리가 아래로 꺾이지 않도록 배꼽을 당겨 올려 척추를 일직선으로 만듭니다.",
+      "advancedGuide": "무릎을 완전히 떼고 정식 플랭크 자세로 골반이 처지지 않게 1분 이상 버팁니다.\n호흡을 뱉을 때마다 단전(복부 깊은 곳)을 더욱 강하게 조여줍니다."
     },
     {
       "id": "EX_HIP_BRIDGE",
@@ -43,11 +49,13 @@
       "hanjaName": "登關法",
       "category": "STRENGTH",
       "iconEmoji": "💪",
-      "sortOrder": 40,
-      "description": "누워서 엉덩이를 올려 둔근과 고관절 단련, 허리 통증 예방 및 펀치/킥 복합력 증대",
-      "beginnerGuide": "바닥에 누워 무릎을 굽히고 엉덩이를 수평까지 올려 2초간 멈춘 뒤 내리기 15회 3세트",
-      "intermediateGuide": "엉덩이를 들어 올린 정점에서 3초간 둔근을 강하게 쥐어짜며 20회 4세트",
-      "advancedGuide": "한쪽 다리를 들고 외발로 엉덩이를 들어 올리는 싱글 레그 브릿지 양쪽 12회 4세트"
+      "sortOrder": 4,
+      "unitType": "COUNT",
+      "targetValue": 20,
+      "setsCount": 3,
+      "incrementStep": 1,
+      "beginnerGuide": "바닥에 누워 무릎을 세우고 엉덩이를 수평 높이까지 천천히 들어 올려 2초간 멈춥니다.\n허리 힘이 아닌 엉덩이와 허벅지 뒤쪽의 근육으로 밀어 올리는 데 집중합니다.",
+      "advancedGuide": "정점에서 엉덩이를 3초간 강하게 쥐어짜며 골반 주변의 지지력을 극대화합니다.\n한쪽 다리를 공중으로 뻗는 싱글 레그 브릿지로 강도를 한층 더 높입니다."
     },
     {
       "id": "EX_PIKE_PUSHUP",
@@ -55,11 +63,13 @@
       "hanjaName": "登天勢",
       "category": "STRENGTH",
       "iconEmoji": "💪",
-      "sortOrder": 50,
-      "description": "엉덩이를 높이 들고 어깨 힘으로 밀어내는 수련, 담장 올라서기(Climb-up) 기초",
-      "beginnerGuide": "상체를 살짝 숙여 어깨에 체중을 40%만 실어 천천히 8회 3세트",
-      "intermediateGuide": "A자 모양으로 엉덩이를 높여 정식 파이크 푸시업 10회 3세트",
-      "advancedGuide": "발을 낮은 의자 위에 올리고 수직 각도를 높여 어깨 삼각근 집중 타격 12회 4세트"
+      "sortOrder": 5,
+      "unitType": "COUNT",
+      "targetValue": 10,
+      "setsCount": 3,
+      "incrementStep": 1,
+      "beginnerGuide": "상체를 살짝 숙여 어깨에 체중을 가볍게 실은 상태로 안전하게 횟수를 채웁니다.\n관절에 무리가 가지 않도록 가동 범위를 무리하게 넓히지 않습니다.",
+      "advancedGuide": "A자 모양으로 엉덩이를 높이 올린 후 정수리가 바닥을 향하도록 수직으로 내려갑니다.\n발을 의자에 올려 상체 하중을 극대화하여 어깨 삼각근을 집중 타격합니다."
     },
     {
       "id": "EX_HANGING",
@@ -67,11 +77,13 @@
       "hanjaName": "懸空法",
       "category": "STRENGTH",
       "iconEmoji": "💪",
-      "sortOrder": 60,
-      "description": "손악력, 어깨 견갑골 안정화 및 척추 견인 이완에 탁월한 상체 지탱 무공",
-      "beginnerGuide": "발을 바닥이나 의자에 대고 체중의 절반만 실어 철봉 잡고 20초 3세트",
-      "intermediateGuide": "발을 떼고 순수 악력과 어깨 힘으로 30초 버티기 3세트",
-      "advancedGuide": "숄더 팩킹(날개뼈를 아래로 당겨 고정) 자세를 유지하며 45초 버티기 4세트"
+      "sortOrder": 6,
+      "unitType": "SECOND",
+      "targetValue": 30,
+      "setsCount": 3,
+      "incrementStep": 2,
+      "beginnerGuide": "발을 바닥이나 의자에 살짝 디뎌 체중을 분산시키고 철봉에 매달려 버팁니다.\n손아귀와 전완근에 들어오는 긴장을 느끼며 척추 마디마디를 아래로 늘려줍니다.",
+      "advancedGuide": "발을 완전히 떼고 순수 악력과 어깨 근육만으로 온몸의 체중을 지탱합니다.\n숄더 팩킹(날개뼈를 아래로 내려 고정) 상태를 유지하여 어깨 관절을 보호합니다."
     },
     {
       "id": "EX_RUN",
@@ -79,11 +91,13 @@
       "hanjaName": "疾風步",
       "category": "ENDURANCE",
       "iconEmoji": "🏃",
-      "sortOrder": 70,
-      "description": "폭발적인 심폐 지구력과 지치지 않는 기동 체력을 위한 달리기",
-      "beginnerGuide": "2분 가볍게 걷고 1분 천천히 조깅하는 페이스로 총 15분 반복 수련",
-      "intermediateGuide": "1분 평속 러닝 후 30초간 전력질주하는 호흡 빌드업 러닝 총 20분",
-      "advancedGuide": "3분 지속 질주 후 1분 불완전 휴식으로 심박수를 극대화하는 수련 총 30분"
+      "sortOrder": 7,
+      "unitType": "SECOND",
+      "targetValue": 60,
+      "setsCount": 5,
+      "incrementStep": 3,
+      "beginnerGuide": "2분간 가볍게 걷고 1분간 천천히 조깅하는 페이스로 무리 없이 호흡을 다스립니다.\n야외 지형을 파악하며 관절에 충격이 가지 않도록 부드럽게 보법을 밟습니다.",
+      "advancedGuide": "1분간 빠른 속도로 달린 뒤 30초간 전력 질주하며 심폐 지능과 기동력을 극한으로 단련합니다.\n호흡이 가쁠 때 코로 숨을 깊게 들이쉬고 입으로 내쉬는 조절력을 유지합니다."
     },
     {
       "id": "EX_WALK",
@@ -91,11 +105,13 @@
       "hanjaName": "循行步",
       "category": "ENDURANCE",
       "iconEmoji": "🏃",
-      "sortOrder": 80,
-      "description": "무릎 관절의 윤활유를 돌리고 기초 대사량을 확보하는 웰빙 유산소 루틴",
-      "beginnerGuide": "가벼운 평지를 산책하듯 끊어서 하루 총 5,000보 달성하기",
-      "intermediateGuide": "약간 경사진 동네 언덕이나 공원을 보폭을 크게 하여 8,000보 걷기",
-      "advancedGuide": "빠른 걸음 속도를 유지하며 팔을 흔들고 하루 12,000보 돌파하기"
+      "sortOrder": 8,
+      "unitType": "STEP",
+      "targetValue": 5000,
+      "setsCount": 1,
+      "incrementStep": 250,
+      "beginnerGuide": "무리한 거리보다는 평지를 가볍게 산책하듯 걸으며 하체 관절에 윤활유를 공급합니다.\n발뒤꿈치부터 착지하여 발바닥 전체로 밀어내는 올바른 보행 자세를 지킵니다.",
+      "advancedGuide": "약간 경사진 언덕이나 공원을 보폭을 넓히고 팔을 활기차게 흔들며 속도감을 높입니다.\n하루 누적 걸음 수를 채우며 기초 체력의 뼈대를 견고하게 다집니다."
     },
     {
       "id": "EX_SLOW_BURPEE",
@@ -103,24 +119,55 @@
       "hanjaName": "機動陣",
       "category": "ENDURANCE",
       "iconEmoji": "🏃",
-      "sortOrder": 90,
-      "description": "점프 없이 한 발씩 뒤로 짚었다 일어서며 무릎 부담 없이 심폐/전신 근지구력 극대화",
-      "beginnerGuide": "점프 없이 한 발씩 천천히 손을 짚고 짚어 일어서기 10회 3세트",
-      "intermediateGuide": "리듬감을 타고 끊김 없이 매끄럽게 15회 4세트",
-      "advancedGuide": "손을 짚을 때 무릎 대고 푸시업 1회를 추가 연계하여 15회 4세트"
+      "sortOrder": 9,
+      "unitType": "COUNT",
+      "targetValue": 12,
+      "setsCount": 3,
+      "incrementStep": 1,
+      "beginnerGuide": "점프 동작을 완전히 배제하고, 손을 짚고 한 발씩 뒤로 뻗었다가 천천히 일어섭니다.\n무릎과 손목에 충격이 가지 않도록 동작마다 호흡을 맞추며 정돈되게 수행합니다.",
+      "advancedGuide": "동작과 동작 사이의 끊김을 없애고 리듬감을 살려 매끄럽게 연결합니다.\n내려간 상태에서 푸시업 1회를 추가하여 상하체 협응력을 극대화합니다."
     },
-  
+    {
+      "id": "EX_BOXING_ROADWORK",
+      "name": "로드워크",
+      "hanjaName": "로-드워크",
+      "category": "ENDURANCE",
+      "iconEmoji": "🏃",
+      "sortOrder": 10,
+      "unitType": "SECOND",
+      "targetValue": 300,
+      "setsCount": 4,
+      "incrementStep": 15,
+      "beginnerGuide": "가벼운 평지 걷기와 제자리 잔발 스텝을 번갈아가며 무리 없이 호흡을 유지합니다.\n하체 관절을 보호하는 부드러운 착지에 온 신경을 집중합니다.",
+      "advancedGuide": "보폭을 넓히고 조깅과 고속 스텝을 섞어 지속적인 심폐 자극을 줍니다.\n오르막 구간을 포함하여 파쿠르식 지형 적응력을 키웁니다."
+    },
+    {
+      "id": "EX_BOXING_SHADOW",
+      "name": "섀도우 복싱",
+      "hanjaName": "影打法",
+      "category": "ENDURANCE",
+      "iconEmoji": "🥊",
+      "sortOrder": 11,
+      "unitType": "SECOND",
+      "targetValue": 180,
+      "setsCount": 3,
+      "incrementStep": 10,
+      "beginnerGuide": "거울을 보며 어깨의 힘을 빼고 기본 잽과 스텝을 차분하게 구사합니다.\n정확한 자세로 주먹을 뻗는 감각을 몸에 익힙니다.",
+      "advancedGuide": "위빙(상체 회전)과 방어 동작을 유기적으로 엮어 실전 타격 흐름을 만듭니다.\n타격 순간에 펀치 끝에 묵직한 실속을 싣는 제동력을 연습합니다."
+    },
     {
       "id": "EX_STRETCH",
       "name": "관절 스트레칭",
       "hanjaName": "弛筋法",
       "category": "FLEXIBILITY",
       "iconEmoji": "🧘",
-      "sortOrder": 110,
-      "description": "부상 방지 및 운동 전후 전신 관절 가동성 확보 무공",
-      "beginnerGuide": "목, 어깨, 손목, 발목 회전을 각 10회씩 부드럽게 돌려 열감 내기",
-      "intermediateGuide": "고관절 유연성을 위해 다리를 넓게 벌리고 상체 숙여 20초간 유지하기 3회",
-      "advancedGuide": "폼롤러나 맨몸 스트레칭을 결합하여 전신 근막을 15분 동안 정밀 이완"
+      "sortOrder": 12,
+      "unitType": "SECOND",
+      "targetValue": 30,
+      "setsCount": 3,
+      "incrementStep": 2,
+      "beginnerGuide": "목, 어깨, 손목, 발목을 부드럽게 회전시켜 관절 마디마디에 열감을 불어넣습니다.\n무리한 힘을 주지 않고 시원한 느낌이 들 정도로만 이완합니다.",
+      "advancedGuide": "고관절과 척추 주변을 넓게 회전시키며 신체의 유연한 가동 범위를 확보합니다.\n수련 전후 필수 루틴으로 전신 근막의 긴장을 풀어줍니다."
     },
     {
       "id": "EX_YOGA",
@@ -128,11 +175,13 @@
       "hanjaName": "調息法",
       "category": "FLEXIBILITY",
       "iconEmoji": "🧘",
-      "sortOrder": 120,
-      "description": "신체 밸런스를 잡고 깊은 호흡으로 척추 마디와 하체 근육 가동 범위 확장",
-      "beginnerGuide": "다운독 변형으로 종아리와 아킬레스건 늘리기 5회",
-      "intermediateGuide": "코브라 자세와 아기 자세를 결합하여 척추 마디마디를 이완하기 10회",
-      "advancedGuide": "전신 균형이 필요한 전사 자세를 흐트러짐 없이 30초간 양쪽 유지하기"
+      "sortOrder": 13,
+      "unitType": "SECOND",
+      "targetValue": 45,
+      "setsCount": 3,
+      "incrementStep": 2,
+      "beginnerGuide": "다운독 변형 자세를 통해 종아리와 어깨 라인을 부드럽게 늘려줍니다.\n깊은 복식호흡과 함께 자세를 유지하며 몸의 중심을 잡습니다.",
+      "advancedGuide": "전사 자세 등 균형이 필요한 동작을 흔들림 없이 정교하게 유지합니다.\n척추와 고관절의 깊은 안쪽 근육까지 숨을 불어넣듯 이완합니다."
     },
     {
       "id": "EX_CAT_COW",
@@ -140,11 +189,13 @@
       "hanjaName": "身龍回",
       "category": "FLEXIBILITY",
       "iconEmoji": "🧘",
-      "sortOrder": 130,
-      "description": "네발기기 자세에서 척추를 말았다 펴며 허리 통증을 예방하고 낙법(Roll) 구르기 대비",
-      "beginnerGuide": "호흡을 마시며 등 구부리기, 내쉬며 펴기를 천천히 8회 3세트",
-      "intermediateGuide": "골반의 움직임에 집중하며 척추 마디마디를 정밀하게 통제 12회 3세트",
-      "advancedGuide": "캣-카우 동작 후 엉덩이를 뒤로 밀어 고관절까지 깊게 이완 연계 15회 3세트"
+      "sortOrder": 14,
+      "unitType": "COUNT",
+      "targetValue": 15,
+      "setsCount": 3,
+      "incrementStep": 1,
+      "beginnerGuide": "네발기기 자세에서 숨을 마시며 등를 둥글게 말고, 내쉬며 바닥으로 지그시 펴줍니다.\n허리 통증을 예방하고 낙법 구르기를 위한 부드러운 척추 곡선을 만듭니다.",
+      "advancedGuide": "골반의 미세한 움직임부터 시작하여 척추 마디마디가 순차적으로 움직이도록 통제합니다.\n동작 끝에 고관절까지 자연스럽게 연결하여 유연성을 극대화합니다."
     },
     {
       "id": "EX_THORACIC_ROTATION",
@@ -152,11 +203,13 @@
       "hanjaName": "回轉功",
       "category": "FLEXIBILITY",
       "iconEmoji": "🧘",
-      "sortOrder": 140,
-      "description": "등과 어깨의 회전 가동성을 높여 권투 펀치, 탁구/골프 스윙 시 부상 방지",
-      "beginnerGuide": "옆으로 누워 한쪽 팔을 반대편으로 크게 넘어뜨리며 가슴 열기 양쪽 8회",
-      "intermediateGuide": "네발기기 자세에서 한 손을 머리 뒤에 대고 팔꿈치를 천장으로 향해 비틀기 10회",
-      "advancedGuide": "스쿼트 자세로 앉아 한 손으로 발목을 잡고 상체를 최대로 회전하기 10회"
+      "sortOrder": 15,
+      "unitType": "COUNT",
+      "targetValue": 12,
+      "setsCount": 3,
+      "incrementStep": 1,
+      "beginnerGuide": "옆으로 누워 상체를 열어주거나 네발기기 자세에서 팔을 들어 등 뒤를 회전합니다.\n굳어있는 등 위쪽(흉추) 마디를 부드럽게 풀어 회전 가동성을 확보합니다.",
+      "advancedGuide": "스쿼트 자세에서 한쪽 손으로 발목을 잡고 상체를 하늘 위로 최대로 비틀어 엽니다.\n펀치와 스윙 시 발생하는 회전 스트레스를 견딜 수 있는 단단한 상체를 만듭니다."
     },
     {
       "id": "EX_LANDING",
@@ -164,11 +217,13 @@
       "hanjaName": "化勁著",
       "category": "AGILITY",
       "iconEmoji": "🤸",
-      "sortOrder": 150,
-      "description": "착지 및 넘어짐 시 관절 충격을 분산하고 몸을 보호하는 부상 방지 제1초식",
-      "beginnerGuide": "제자리에서 가볍게 뛰며 앞꿈치로 소리 없이 부드럽게 주저앉는 랜딩 10회",
-      "intermediateGuide": "무릎 높이의 턱이나 의자에서 아래로 떨어지며 양손과 발로 충격 분산 10회",
-      "advancedGuide": "랜딩 직후 멈추지 않고 어깨를 이용해 앞으로 구르는 전방 롤(Roll) 연계 5회"
+      "sortOrder": 16,
+      "unitType": "COUNT",
+      "targetValue": 12,
+      "setsCount": 3,
+      "incrementStep": 1,
+      "beginnerGuide": "제자리에서 가볍게 뛰어내리며 앞꿈치로 지면의 충격을 사소하게 흡수하는 랜딩을 익힙니다.\n무릎 관절로 충격이 바로 꽂히지 않도록 발목과 고관절로 분산합니다.",
+      "advancedGuide": "낮은 턱이나 단상에서 떨어지며 양손과 발로 충격을 안전하게 분산합니다.\n낙지 직후 구르기(Roll)로 자연스럽게 관성의 법칙을 흘려보내는 실전 회피 기공"
     },
     {
       "id": "EX_VAULT",
@@ -176,11 +231,13 @@
       "hanjaName": "跨封術",
       "category": "AGILITY",
       "iconEmoji": "🤸",
-      "sortOrder": 160,
-      "description": "달려오는 탄력을 이용해 허리 높이의 장애물을 사뿐하게 통과하기",
-      "beginnerGuide": "장애물에 양손을 짚고 두 발 모아 옆으로 안전하게 걸쳐 넘어가기 5회",
-      "intermediateGuide": "한 손과 반대쪽 발만 짚고 몸을 측면으로 띄워 신속히 넘는 세이프티 볼트 10회",
-      "advancedGuide": "양손을 동시에 강하게 밀어내며 두 다리를 가슴으로 모아 통과하는 콩 볼트 5회"
+      "sortOrder": 17,
+      "unitType": "COUNT",
+      "targetValue": 10,
+      "setsCount": 3,
+      "incrementStep": 1,
+      "beginnerGuide": "허리 높이의 장애물에 양손을 든든하게 짚고 두 발을 모아 안전하게 걸쳐 넘습니다.\n팔과 코어의 지지력을 활용해 신체를 가볍게 띄우는 감각을 익힙니다.",
+      "advancedGuide": "한 손과 반대쪽 발만 가볍게 터치하듯 짚고 측면으로 몸을 날려 신속하게 통과합니다.\n장애물 위에서 주저하지 않고 탄력을 살려 부드럽게 지면에 착지합니다."
     },
     {
       "id": "EX_QUICK_FEET",
@@ -188,11 +245,13 @@
       "hanjaName": "閃步陣",
       "category": "AGILITY",
       "iconEmoji": "⚡",
-      "sortOrder": 170,
-      "description": "축구, 탁구, 권투의 핵심인 좁은 공간에서의 정밀하고 빠른 풋워크 민첩성 단련",
-      "beginnerGuide": "제자리에서 뒤꿈치를 들고 가볍게 10초간 잔발 뛰기 3세트",
-      "intermediateGuide": "15초 동안 빠르게 잔발을 구르며 좌우로 살짝 중심 이동 4세트",
-      "advancedGuide": "20초 전력 잔발 구르기 후 신호에 맞춰 즉시 스쿼트 자세로 멈추기 4세트"
+      "sortOrder": 18,
+      "unitType": "SECOND",
+      "targetValue": 20,
+      "setsCount": 4,
+      "incrementStep": 2,
+      "beginnerGuide": "뒤꿈치를 살짝 든 채 제자리에서 발을 잔잔하게 구르며 가볍게 신경계를 깨웁니다.\n불필요한 힘을 빼고 리드미컬하게 발 빠르게 움직이는 기초 풋워크를 다집니다.",
+      "advancedGuide": "20초 동안 한계 속도로 잔발을 구르며 민첩한 반응 속도를 극대화합니다.\n신호에 맞춰 즉시 자세를 낮추고 단단하게 멈추는 제동력을 연마합니다."
     },
     {
       "id": "EX_SIDE_STEP",
@@ -200,71 +259,55 @@
       "hanjaName": "側面制",
       "category": "AGILITY",
       "iconEmoji": "⚡",
-      "sortOrder": 180,
-      "description": "좌우 측면 이동력 및 순간 제동력을 길러 둔근 강화 및 돌발 상황 균형 감각 확보",
-      "beginnerGuide": "좌우로 두 걸음씩 사이드 스텝 이동 후 가볍게 무릎 굽히기 10회 3세트",
-      "intermediateGuide": "사이드 스텝 후 깊게 사이드 런지로 체중을 실어 제동하기 양쪽 12회 3세트",
-      "advancedGuide": "빠른 속도로 좌우 사이드 스텝 터치 20초 4세트"
+      "sortOrder": 19,
+      "unitType": "COUNT",
+      "targetValue": 15,
+      "setsCount": 3,
+      "incrementStep": 1,
+      "beginnerGuide": "좌우로 폭을 넓혀 이동하며 균형을 잃지 않도록 천천히 무릎을 굽혀줍니다.\n측면 근육과 발목 안팎의 안정성을 조율하여 돌발 상황에 대비합니다.",
+      "advancedGuide": "빠른 사이드 스텝 후 깊은 런지 자세로 체중을 한 번에 실어 순간적으로 멈춰 섭니다.\n둔근과 허벅지 측면의 폭발적인 제동력과 균형 감각을 동시에 확보합니다."
     },
-  {
-    "id": "EX_BOXING_ROADWORK",
-    "name": "로드워크",
-    "hanjaName": "로-드워크",
-    "category": "ENDURANCE",
-    "iconEmoji": "🏃",
-    "sortOrder": 50,
-    "description": "야외 러닝과 인터벌 스텝을 통해 하체 관절을 보호하며 심폐 지구력과 페이스 조절 능력을 기르는 훈련",
-    "beginnerGuide": "가벼운 평지 걷기와 제자리 잔발 스텝을 번갈아가며 무리 없이 20분 유지하기",
-    "intermediateGuide": "보폭을 넓히고 가벼운 조깅과 고속 스텝을 섞어 30분 동안 지속적인 심폐 자극 주기",
-    "advancedGuide": "오르막 구간을 포함한 파쿠르식 지형 러닝과 고강도 인터벌 스텝을 결합하여 40분 완주"
-  },
-  {
-    "id": "EX_BOXING_SHADOW",
-    "name": "섀도우 복싱",
-    "hanjaName": "影打法",
-    "category": "ENDURANCE",
-    "iconEmoji": "🥊",
-    "sortOrder": 60,
-    "description": "거울을 보며 허공을 상대로 펀치와 풋워크, 방어 자세를 구사하여 상하체 협응력과 폼을 교정하는 수련",
-    "beginnerGuide": "제자리에서 거울을 보며 어깨에 힘을 빼고 가벼운 잽과 기본 스텝을 3세트 반복하기",
-    "intermediateGuide": "상체 회전(위빙)을 추가하여 공격과 방어가 유기적으로 연결되도록 3분 4세트 수행",
-    "advancedGuide": "실전 대련 상황을 상정하고 폭발적인 스피드와 연속 콤비네이션을 3분 5세트 완벽 제어"
-  },
-  {
-    "id": "EX_BOXING_HEAVYBAG",
-    "name": "샌드백 타격",
-    "hanjaName": "鐵拳擊",
-    "category": "STRENGTH",
-    "iconEmoji": "🥋",
-    "sortOrder": 70,
-    "description": "묵직한 타격을 통해 순간적인 힘의 전달과 손목·어깨 관절의 지지력, 코어 회전력을 단련하는 수련",
-    "beginnerGuide": "손목 보호대를 착용하고 벽 밀기 및 무릎 푸시업으로 상반신 저항력을 기른 뒤 가벼운 잽 타격 15회 3세트",
-    "intermediateGuide": "허리와 코어의 회전을 온전히 실어 스트레이트와 훅 타격을 20회 4세트 수행",
-    "advancedGuide": "체중을 실은 강력한 연타 타격과 순간 제동을 콤비네이션으로 묶어 4세트 극한 단련"
-  },
-  {
-    "id": "EX_BOXING_SPEEDBAG",
-    "name": "스피드 백",
-    "hanjaName": "速打球",
-    "category": "AGILITY",
-    "iconEmoji": "⏱️",
-    "sortOrder": 80,
-    "description": "공중에 매달린 공을 일정한 리듬으로 연속 타격하여 상체 지구력, 반사 신경, 손과 눈의 협응력을 극대화",
-    "beginnerGuide": "제자리에서 양손을 번갈아가며 가볍게 리듬을 맞춰 스피드백을 1분간 치는 연습 3세트",
-    "intermediateGuide": "눈과 손의 타이밍을 일치시켜 끊김 없이 일정한 속도로 2분간 연속 타격 4세트",
-    "advancedGuide": "최고 속도의 리듬을 유지하며 눈을 감고도 박자를 맞출 수 있는 고도의 반사 신경 수련"
-  },
-  {
-    "id": "EX_BOXING_JUMPROPE",
-    "name": "줄넘기",
-    "hanjaName": "跳繩術",
-    "category": "AGILITY",
-    "iconEmoji": "🪢",
-    "sortOrder": 90,
-    "description": "발끝으로 가볍게 뛰며 종아리와 발목 관절의 탄력, 민첩한 풋워크를 위한 전신 유산소 순발력 향상",
-    "beginnerGuide": "발목과 무릎에 무리가 가지 않도록 바닥을 낮게 치며 기본 양발 뛰기 1분 3세트",
-    "intermediateGuide": "좌우 교차 뛰기와 가벼운 리듬 스텝을 섞어 2분 4세트 지속",
-    "advancedGuide": "고강도 이단 뛰기 및 빠른 스피드 줄넘기로 심폐 지구력과 하체 탄력을 한계까지 끌어올리기"
-  }
+    {
+      "id": "EX_BOXING_HEAVYBAG",
+      "name": "샌드백 타격",
+      "hanjaName": "鐵拳擊",
+      "category": "STRENGTH",
+      "iconEmoji": "🥋",
+      "sortOrder": 20,
+      "unitType": "COUNT",
+      "targetValue": 20,
+      "setsCount": 3,
+      "incrementStep": 1,
+      "beginnerGuide": "손목 보호대를 단단히 착용하고 코어와 벽 밀기로 상체 저항력을 높인 뒤 가벼운 잽을 날립니다.\n샌드백 표면에 정확하게 주먹 앞면이 닿도록 자세를 교정합니다.",
+      "advancedGuide": "하체의 지면 반발력과 허리의 회전 토크를 온전히 실어 스트레이트와 훅을 구사합니다.\n타격 직후 팔에 힘을 빼고 빠르게 가드 위치로 돌아오는 방어 태세를 갖춥니다."
+    },
+    {
+      "id": "EX_BOXING_SPEEDBAG",
+      "name": "스피드 백",
+      "hanjaName": "速打球",
+      "category": "AGILITY",
+      "iconEmoji": "⏱️",
+      "sortOrder": 21,
+      "unitType": "SECOND",
+      "targetValue": 60,
+      "setsCount": 3,
+      "incrementStep": 3,
+      "beginnerGuide": "양손을 번갈아 가며 공이 튀어 오르는 반동에 맞춰 가볍게 툭툭 치는 연습을 합니다.\n어깨가 솟지 않도록 팔을 들고 일정한 박자감을 체득합니다.",
+      "advancedGuide": "시선과 손의 타이밍을 완벽히 일치시켜 끊김 없이 연속으로 고속 타격을 구사합니다.\n상체 근지구력과 눈에 보이는 반사 신경을 극한으로 조율합니다."
+    },
+    {
+      "id": "EX_BOXING_JUMPROPE",
+      "name": "줄넘기",
+      "hanjaName": "跳繩術",
+      "category": "AGILITY",
+      "iconEmoji": "🪢",
+      "sortOrder": 22,
+      "unitType": "SECOND",
+      "targetValue": 60,
+      "setsCount": 3,
+      "incrementStep": 3,
+      "beginnerGuide": "무릎을 높이 올리지 않고 발끝으로 바닥을 낮게 치며 기본 양발 뛰기를 수행합니다.\n종아리와 발목 관절에 무리가 가지 않도록 호흡과 박자를 일정하게 유지합니다.",
+      "advancedGuide": "좌우 교차 뛰기 및 빠른 스피드 줄넘기로 심폐 지구력과 하체 탄력을 극대화합니다.\n장시간 점프에도 리듬이 흐트러지지 않는 하체 내공을 완성합니다."
+    }
   ]
 }
