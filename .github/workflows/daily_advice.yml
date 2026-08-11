@@ -12,12 +12,12 @@ jobs:
 
     steps:
     - name: 깃허브 소스 코드 체크아웃
-      uses: actions/checkout@v655
+      uses: actions/checkout@v4
 
     - name: 파이썬 환경 설정
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: '3.11'
 
     - name: 라이브러리(Google GenAI) 설치
       run: |
