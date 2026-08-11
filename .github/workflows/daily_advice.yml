@@ -1,0 +1,38 @@
+name: Generate Daily Ssabu Advice
+
+on:
+  schedule:
+    # 매일 한국 시간 자정(UTC 기준 오후 15시, KST 00:00)에 자동 실행
+    - cron: '0 15 * * *'
+  workflow_dispatch: # 수동으로도 테스트 실행 가능
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 깃허브 소스 코드 체크아웃
+      uses: actions/checkout@v4
+
+    - name: 파이썬 환경 설정
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: 라이브러리(Google GenAI) 설치
+      run: |
+        pip install google-generativeai
+
+    - name: 파이썬 스크립트 실행 (조언 생성)
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      run: |
+        python generate_advice.py
+
+    - name: 변경된 JSON 파일 깃허브에 자동 Commit & Push
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add daily_advice.json
+        git commit -m "🤖 [Bot] ${{ env.today }} 사부의 금일 훈수 자동 갱신" || exit 0
+        git push
