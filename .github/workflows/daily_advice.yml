@@ -33,6 +33,12 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # 1. 변경된 파일이 있는지 확인
         git add daily_advice.json
-        git commit -m "🤖 [Bot] ${{ env.today }} 사부의 금일 훈수 자동 갱신" || exit 0
+        
+        # 2. 바뀐 내용이 없다면 에러(128)를 내지 말고 여기서 안전하게 종료 (exit 0)
+        git diff --staged --quiet || git commit -m "🤖 [Bot] 사부의 금일 훈수 자동 갱신"
+        
+        # 3. 푸시 실행
         git push
