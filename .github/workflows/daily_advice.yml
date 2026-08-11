@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: 깃허브 소스 코드 체크아웃
-      uses: actions/checkout@v4
+      uses: actions/checkout@v655
 
     - name: 파이썬 환경 설정
       uses: actions/setup-python@v5
