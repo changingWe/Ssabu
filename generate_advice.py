@@ -1,6 +1,7 @@
 import os
 import json
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import google.generativeai as genai
 
 # 1. API 키 설정 (GitHub Secrets에서 가져옴)
@@ -11,7 +12,7 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 # 2. 오늘 날짜 및 요일 구하기 (예: 2026-08-11)
-today_str = datetime.now().strftime("%Y-%m-%d")
+today_str = datetime.now(ZoneInfo("Asia/Seoul")).strftime("%Y-%m-%d")
 
 # 3. Gemini 모델 설정 (가장 가볍고 빠른 flash 모델 활용)
 generation_config = {
