@@ -1,138 +1,125 @@
 {
-  "version": 6,
+  "version": 7,
   "commonJson": [
     {
-      "courseCategory": "HEALTH_CARE",
-      "title": "기초 체력 코스",
-      "description": "관절 무리 없이 혈압·혈당을 관리하고 심혈관을 튼튼히 다지는 건강 코스",
-      "iconEmoji": "🌿",
+      "courseCategory": "T100_GRADE1",
+      "title": "국민체력100 1등급 코스",
+      "description": "국가 공인 체력 인증 1등급 기준(악력·윗몸·셔틀런·유연성·멀리뛰기)을 완벽히 격파하는 49일 마스터 코스",
+      "iconEmoji": "🏛️",
       "schedules": [
         {
-          "exerciseId": "EX_STRETCH",
+          "exerciseId": "EX_T100_SHUTTLE_RUN",
           "startOffsetDays": 0,
-          "durationDays": 28
+          "durationDays": 49
         },
         {
-          "exerciseId": "EX_WALK",
+          "exerciseId": "EX_T100_SIT_FORWARD",
           "startOffsetDays": 0,
-          "durationDays": 28
+          "durationDays": 49
         },
         {
-          "exerciseId": "EX_SIDE_STEP",
+          "exerciseId": "EX_T100_GRIP",
           "startOffsetDays": 0,
-          "durationDays": 14
+          "durationDays": 49
         },
         {
-          "exerciseId": "EX_YOGA",
-          "startOffsetDays": 15,
-          "durationDays": 13
+          "exerciseId": "EX_T100_SITUP",
+          "startOffsetDays": 0,
+          "durationDays": 49
+        },
+        {
+          "exerciseId": "EX_T100_BROAD_JUMP",
+          "startOffsetDays": 0,
+          "durationDays": 49
         }
       ]
     },
     {
       "courseCategory": "FITNESS_BOOST",
-      "title": "근력 빌드업 코스",
-      "description": "근육량 소실을 방어하고 상·하체 저항력을 극한으로 끌어올리는 근력 코스",
+      "title": "전신 근력 코스",
+      "description": "상·하체 및 코어 대근육 저항력을 끌어올리고 관절 지지력을 단련하는 49일 근력 코스",
       "iconEmoji": "💪",
       "schedules": [
         {
           "exerciseId": "EX_STRETCH",
           "startOffsetDays": 0,
-          "durationDays": 28
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_SQUAT",
           "startOffsetDays": 0,
-          "durationDays": 28
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_PUSHUP",
           "startOffsetDays": 0,
-          "durationDays": 28
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_PLANK",
-          "startOffsetDays": 14,
-          "durationDays": 14
+          "startOffsetDays": 0,
+          "durationDays": 49
+        },
+        {
+          "exerciseId": "EX_HANGING",
+          "startOffsetDays": 0,
+          "durationDays": 49
         }
       ]
     },
     {
-      "courseCategory": "POSTURE_BALANCE",
-      "title": "자세 교정 & 균형 코스",
-      "description": "무너진 체형을 바로잡고 일상 속 낙상 위험을 원천 방어하는 신체 제어 코스",
-      "iconEmoji": "🧘",
+      "courseCategory": "ENDURANCE_CARDIO",
+      "title": "심폐 강화 코스",
+      "description": "걷기와 인터벌 러닝, 전신 섀도우를 통해 지치지 않는 스태미나와 호흡력을 완성하는 49일 코스",
+      "iconEmoji": "🏃",
       "schedules": [
         {
           "exerciseId": "EX_STRETCH",
           "startOffsetDays": 0,
-          "durationDays": 28
+          "durationDays": 49
         },
         {
-          "exerciseId": "EX_SIDE_STEP",
+          "exerciseId": "EX_WALK",
           "startOffsetDays": 0,
-          "durationDays": 28
+          "durationDays": 49
         },
         {
-          "exerciseId": "EX_PLANK",
+          "exerciseId": "EX_RUN",
           "startOffsetDays": 0,
-          "durationDays": 28
+          "durationDays": 49
+        },
+        {
+          "exerciseId": "EX_BOXING_SHADOW",
+          "startOffsetDays": 0,
+          "durationDays": 49
         }
       ]
     },
     {
       "courseCategory": "SKILL_AGILITY",
-      "title": "민첩성 코스",
-      "description": "신체 반응 속도를 높이고 안전 랜딩 기법을 익히는 무공 코스",
-      "iconEmoji": "🤸",
+      "title": "민첩성 강화 코스",
+      "description": "잔발 스텝과 안전 착지·도약 기술을 익혀 신체 반응 속도와 제동력을 높이는 49일 코스",
+      "iconEmoji": "⚡",
       "schedules": [
         {
           "exerciseId": "EX_STRETCH",
           "startOffsetDays": 0,
-          "durationDays": 28
+          "durationDays": 49
         },
         {
-          "exerciseId": "EX_SQUAT",
+          "exerciseId": "EX_QUICK_FEET",
           "startOffsetDays": 0,
-          "durationDays": 14
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_LANDING",
-          "startOffsetDays": 15,
-          "durationDays": 13
+          "startOffsetDays": 0,
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_VAULT",
-          "startOffsetDays": 21,
-          "durationDays": 7
-        }
-      ]
-    },
-    {
-      "courseCategory": "MIND_CARDIO",
-      "title": "심폐 강화 코스",
-      "description": "인터벌 러닝과 호흡 조절로 지치지 않는 스태미나와 평정심을 완성하는 코스",
-      "iconEmoji": "🌊",
-      "schedules": [
-        {
-          "exerciseId": "EX_STRETCH",
           "startOffsetDays": 0,
-          "durationDays": 28
-        },
-        {
-          "exerciseId": "EX_WALK",
-          "startOffsetDays": 0,
-          "durationDays": 28
-        },
-        {
-          "exerciseId": "EX_RUN",
-          "startOffsetDays": 14,
-          "durationDays": 14
-        },
-        {
-          "exerciseId": "EX_YOGA",
-          "startOffsetDays": 0,
-          "durationDays": 28
+          "durationDays": 49
         }
       ]
     }
@@ -145,29 +132,29 @@
       "iconEmoji": "🥊",
       "schedules": [
         {
-          "exerciseId": "EX_BOXING_ROADWORK",
+          "exerciseId": "EX_STRETCH",
           "startOffsetDays": 0,
-          "durationDays": 28
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_BOXING_SHADOW",
           "startOffsetDays": 0,
-          "durationDays": 14
+          "durationDays": 49
         },
         {
-          "exerciseId": "EX_BOXING_HEAVYBAG",
-          "startOffsetDays": 14,
-          "durationDays": 14
+          "exerciseId": "EX_QUICK_FEET",
+          "startOffsetDays": 0,
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_BOXING_JUMPROPE",
           "startOffsetDays": 0,
-          "durationDays": 14
+          "durationDays": 49
         },
         {
-          "exerciseId": "EX_BOXING_SPEEDBAG",
-          "startOffsetDays": 14,
-          "durationDays": 14
+          "exerciseId": "EX_BOXING_HEAVYBAG",
+          "startOffsetDays": 0,
+          "durationDays": 49
         }
       ]
     },
@@ -180,17 +167,17 @@
         {
           "exerciseId": "EX_BREATHING",
           "startOffsetDays": 0,
-          "durationDays": 7
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_RELAX_FLOW",
-          "startOffsetDays": 7,
-          "durationDays": 14
+          "startOffsetDays": 0,
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_FALL_SAFETY",
-          "startOffsetDays": 21,
-          "durationDays": 14
+          "startOffsetDays": 0,
+          "durationDays": 49
         }
       ]
     },
@@ -203,17 +190,17 @@
         {
           "exerciseId": "EX_CENTERLINE_STANCE",
           "startOffsetDays": 0,
-          "durationDays": 7
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_ELBOW_ELASTIC",
-          "startOffsetDays": 7,
-          "durationDays": 14
+          "startOffsetDays": 0,
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_SHORT_PUNCH",
-          "startOffsetDays": 21,
-          "durationDays": 14
+          "startOffsetDays": 0,
+          "durationDays": 49
         }
       ]
     },
@@ -226,40 +213,17 @@
         {
           "exerciseId": "EX_DEAD_HANG",
           "startOffsetDays": 0,
-          "durationDays": 7
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_INVERTED_ROW",
-          "startOffsetDays": 7,
-          "durationDays": 14
+          "startOffsetDays": 0,
+          "durationDays": 49
         },
         {
           "exerciseId": "EX_PULL_UP_HOLD",
-          "startOffsetDays": 21,
-          "durationDays": 14
-        }
-      ]
-    },
-    {
-      "courseCategory": "MOBILITY_YOGA",
-      "title": "모빌리티 요가 (준비중)",
-      "description": "관절 가동 범위를 넓히고 신체 유연성을 극대화하는 밸런스 수련",
-      "iconEmoji": "🧘",
-      "schedules": [
-        {
-          "exerciseId": "EX_SPINE_SPLIT",
           "startOffsetDays": 0,
-          "durationDays": 7
-        },
-        {
-          "exerciseId": "EX_HIP_OPEN",
-          "startOffsetDays": 7,
-          "durationDays": 14
-        },
-        {
-          "exerciseId": "EX_DYNAMIC_FLOW",
-          "startOffsetDays": 21,
-          "durationDays": 14
+          "durationDays": 49
         }
       ]
     }
