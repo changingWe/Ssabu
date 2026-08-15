@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "exercises": [
     {
       "id": "EX_T100_GRIP",
@@ -7,10 +7,10 @@
       "hanjaName": "鐵指功力",
       "category": "STRENGTH",
       "iconEmoji": "✊",
-      "sortOrder": 3,
+      "sortOrder": 2,
       "description": "상대악력 1등급(체중 60~62% 이상) 대비 전완근 및 손아귀 파지력 단련",
-      "beginnerGuide": "맨손 쥐었다 펴기 또는 가벼운 악력기로 15회 3세트 수행",
-      "advancedGuide": "철봉 매달리기 또는 악력기 최대 수축 상태로 30초 버티기 4세트",
+      "beginnerGuide": "맨손 쥐었다 펴기 또는 가벼운 악력기로 버티기 반복 수행",
+      "advancedGuide": "철봉 매달리기 또는 악력기 최대 수축 상태로 버티기 4세트",
       "unitType": "SECOND",
       "targetValue": 30,
       "setsCount": 4,
@@ -18,14 +18,14 @@
     },
     {
       "id": "EX_T100_SITUP",
-      "name": "교차 윗몸일으키기",
+      "name": "윗몸일으키기",
       "hanjaName": "丹田起勢",
       "category": "ENDURANCE",
       "iconEmoji": "🧱",
       "sortOrder": 2,
       "description": "근지구력 1등급(2분간 52~55회 이상) 돌파를 위한 복직근 및 코어 지구력 수련",
-      "beginnerGuide": "무릎을 세우고 손등을 허벅지에 얹은 채 상체를 반만 들어올리기 15회 3세트",
-      "advancedGuide": "양손을 가슴에 교차하고 팔꿈치로 허벅지를 터치하며 25회 4세트",
+      "beginnerGuide": "무릎을 세우고 손등을 허벅지에 얹은 채 상체를 반만 들어올리기",
+      "advancedGuide": "양손을 가슴에 교차하고 팔꿈치로 허벅지를 터치",
       "unitType": "COUNT",
       "targetValue": 25,
       "setsCount": 4,
@@ -33,14 +33,14 @@
     },
     {
       "id": "EX_T100_SHUTTLE_RUN",
-      "name": "20m 왕복달리기",
+      "name": "20m 셔틀런",
       "hanjaName": "疾風長走",
       "category": "ENDURANCE",
       "iconEmoji": "🏃",
       "sortOrder": 1,
       "description": "심폐지구력 1등급(60~65회 이상) 대비 셔틀런 호흡 및 심폐 인터벌",
-      "beginnerGuide": "20m 구간을 가볍게 왕복 조깅하며 호흡 리듬 익히기 15회 3세트",
-      "advancedGuide": "신호음 템포에 맞춰 페이스를 유지하며 25회 연속 왕복 4세트",
+      "beginnerGuide": "20m 구간을 가볍게(148spm 이상) 왕복 조깅하며 호흡 리듬 익히기",
+      "advancedGuide": "신호음 템포(180spm 이상)에 맞춰 페이스를 유지하며 연속 왕복",
       "unitType": "COUNT",
       "targetValue": 25,
       "setsCount": 4,
@@ -52,7 +52,7 @@
       "hanjaName": "前屈伸法",
       "category": "FLEXIBILITY",
       "iconEmoji": "🧘",
-      "sortOrder": 4,
+      "sortOrder": 1,
       "description": "유연성 1등급(19~21cm 이상) 달성을 위한 햄스트링 및 척추 기립근 이완",
       "beginnerGuide": "다리를 펴고 앉아 수건을 발바닥에 걸어 상체를 부드럽게 당겨 유지",
       "advancedGuide": "발끝을 넘어 손바닥을 바닥에 밀착시키며 깊은 호흡으로 유지",
@@ -63,14 +63,14 @@
     },
     {
       "id": "EX_T100_BROAD_JUMP",
-      "name": "제자리 멀리뛰기",
+      "name": "멀리뛰기",
       "hanjaName": "飛躍彈力",
       "category": "AGILITY",
       "iconEmoji": "💥",
       "sortOrder": 5,
       "description": "순발력 1등급(230~235cm 이상) 및 민첩성 보완을 위한 하체 폭발 추진력 훈련",
-      "beginnerGuide": "무릎을 굽혀 팔 반동을 이용해 가볍게 1.5m 점프 후 부드러운 착지",
-      "advancedGuide": "지면을 강하게 박차며 최대 도약 후 밸런스를 잡고 멈추기",
+      "beginnerGuide": "무릎을 굽혀 팔 반동을 이용해 제자리에서 가볍게 1.5m 점프 후 부드러운 착지",
+      "advancedGuide": "제자리에서 지면을 강하게 박차며 최대 도약 후 밸런스를 잡고 멈추기",
       "unitType": "COUNT",
       "targetValue": 12,
       "setsCount": 4,
@@ -82,14 +82,14 @@
       "hanjaName": "屈伸勢",
       "category": "STRENGTH",
       "iconEmoji": "💪",
-      "sortOrder": 2,
+      "sortOrder": 3,
       "description": "하체 대근육과 무릎·고관절을 강화하여 충격 흡수와 도약의 기반을 다지는 운동",
       "unitType": "COUNT",
       "targetValue": 20,
       "setsCount": 3,
       "incrementStep": 1,
-      "beginnerGuide": "의자나 벽을 가볍게 짚고 무릎 각도가 90도가 될 때까지 천천히 앉았다 일어난다.",
-      "advancedGuide": "맨몸으로 깊게 앉았다가 허벅지와 엉덩이 힘으로 멈춤 없이 힘차게 일어선다."
+      "beginnerGuide": "의자나 벽을 가볍게 짚고 무릎 각도가 90도가 될 때까지 천천히 앉았다 일어남",
+      "advancedGuide": "맨몸으로 깊게 앉았다가 허벅지와 엉덩이 힘으로 멈춤 없이 힘차게 일어남."
     },
     {
       "id": "EX_PUSHUP",
@@ -97,14 +97,14 @@
       "hanjaName": "鐵壁掌",
       "category": "STRENGTH",
       "iconEmoji": "💪",
-      "sortOrder": 2,
+      "sortOrder": 5,
       "description": "가슴, 삼두근, 어깨를 단련하여 상체 지탱력과 장애물 밀기 능력을 향상하는 수련",
       "unitType": "COUNT",
       "targetValue": 15,
       "setsCount": 3,
       "incrementStep": 1,
-      "beginnerGuide": "무릎을 바닥에 대거나 벽/모서리를 짚고 팔꿈치를 옆구리 쪽에 붙여 밀어 올린다.",
-      "advancedGuide": "머리부터 발끝까지 일직선을 유지한 채 가슴이 바닥에 닿기 직전까지 내려갔다 민다."
+      "beginnerGuide": "무릎을 바닥에 대거나 모서리를 짚고 팔꿈치를 옆구리 쪽에 붙여 밀어 올림",
+      "advancedGuide": "머리부터 발끝까지 일직선을 유지한 채 가슴이 바닥에 닿기 직전까지 내려갔다 올라옴"
     },
     {
       "id": "EX_PLANK",
@@ -118,8 +118,8 @@
       "targetValue": 40,
       "setsCount": 3,
       "incrementStep": 2,
-      "beginnerGuide": "팔꿈치와 무릎을 바닥에 대고 배꼽을 당겨 올려 척추를 수평으로 유지한다.",
-      "advancedGuide": "무릎을 떼고 정식 자세로 골반이 처지거나 솟지 않게 몸 전체를 널빤지처럼 유지한다."
+      "beginnerGuide": "팔꿈치와 무릎을 바닥에 대고 배꼽을 당겨 올려 척추를 수평으로 유지",
+      "advancedGuide": "무릎을 떼고 정식 자세로 골반이 처지거나 솟지 않게 몸 전체를 널빤지처럼 유지"
     },
     {
       "id": "EX_HANGING",
@@ -133,8 +133,8 @@
       "targetValue": 30,
       "setsCount": 3,
       "incrementStep": 2,
-      "beginnerGuide": "발을 바닥이나 받침대에 대고 체중 일부를 분산시킨 채 철봉을 쥐고 버틴다.",
-      "advancedGuide": "발을 완전히 떼고 날개뼈를 아래로 내려 단단히 고정한 상태로 매달려 버틴다."
+      "beginnerGuide": "발을 바닥이나 받침대에 대고 체중 일부를 분산시킨 채 철봉을 쥐고 버티기",
+      "advancedGuide": "발을 완전히 떼고 날개뼈를 아래로 내려 단단히 고정한 상태로 매달려 버티기"
     },
     {
       "id": "EX_RUN",
@@ -148,8 +148,8 @@
       "targetValue": 60,
       "setsCount": 5,
       "incrementStep": 3,
-      "beginnerGuide": "빠르게 걷기와 가벼운 조깅을 번갈아 가며 편안한 호흡 리듬을 유지한다.",
-      "advancedGuide": "빠른 러닝 페이스와 고속 질주를 반복하며 심박수를 높이고 유지한다."
+      "beginnerGuide": "빠르게 걷기와 가벼운 조깅을 번갈아 가며 편안한 호흡 리듬을 유지",
+      "advancedGuide": "빠른 러닝 페이스와 고속 질주를 반복하며 심박수를 높임"
     },
     {
       "id": "EX_WALK",
@@ -163,8 +163,8 @@
       "targetValue": 5000,
       "setsCount": 1,
       "incrementStep": 250,
-      "beginnerGuide": "평지를 산책하듯 편안한 보폭으로 발뒤꿈치부터 닿도록 걷는다.",
-      "advancedGuide": "보폭을 넓히고 팔을 앞뒤로 크게 흔들며 일정한 빠른 걸음 속도를 유지한다."
+      "beginnerGuide": "평지를 산책하듯 편안한 보폭으로 발뒤꿈치부터 닿도록 걷기",
+      "advancedGuide": "보폭을 넓히고 팔을 앞뒤로 크게 흔들며 일정한 빠른 걸음 속도를 유지"
     },
     {
       "id": "EX_BOXING_SHADOW",
@@ -178,8 +178,8 @@
       "targetValue": 180,
       "setsCount": 3,
       "incrementStep": 10,
-      "beginnerGuide": "거울을 보며 어깨 힘을 빼고 제자리에서 기본 잽과 가벼운 스텝을 밟는다.",
-      "advancedGuide": "가드 자세에서 전후좌우 스텝을 밟으며 잽-스트레이트 콤비네이션을 뻗는다."
+      "beginnerGuide": "거울을 보며 어깨 힘을 빼고 제자리에서 기본 잽과 가벼운 스텝 병행",
+      "advancedGuide": "가드 자세에서 전후좌우 스텝을 밟으며 잽-스트레이트 콤비네이션을 뻗음"
     },
     {
       "id": "EX_STRETCH",
@@ -188,13 +188,13 @@
       "category": "FLEXIBILITY",
       "iconEmoji": "🧘",
       "sortOrder": 12,
-      "description": "주요 관절 마디를 부드럽게 풀어 부상을 방지하고 신체 가동 범위를 확보하는 준비 수련",
+      "description": "주요 관절 마디를 부드럽게 풀어 신체 가동 범위를 확보하는 준비 수련",
       "unitType": "SECOND",
       "targetValue": 30,
       "setsCount": 3,
       "incrementStep": 2,
-      "beginnerGuide": "목, 어깨, 손목, 허리, 무릅, 발목 등 6곳을 각각 무리한 힘 없이 천천히 돌려준다.",
-      "advancedGuide": "목, 어깨, 손목, 허리, 무릅, 발목 등 6곳을 넓은 회전 반경으로 끝 범위를 늘려준다."
+      "beginnerGuide": "목, 어깨, 손목, 허리, 무릅, 발목 등 6곳을 각각 무리한 힘 없이 천천히 회전",
+      "advancedGuide": "목, 어깨, 손목, 허리, 무릅, 발목 등 6곳을 넓은 회전 반경으로 끝 범위를 늘림"
     },
     {
       "id": "EX_CAT_COW",
@@ -208,8 +208,8 @@
       "targetValue": 15,
       "setsCount": 3,
       "incrementStep": 1,
-      "beginnerGuide": "네발기기 자세에서 숨을 마시며 등을 둥글게 말고, 내쉬며 바닥 쪽으로 편다.",
-      "advancedGuide": "골반부터 목까지 척추 마디마디를 하나씩 움직이는 느낌으로 천천히 분절한다."
+      "beginnerGuide": "네발기기 자세에서 숨을 마시며 등을 둥글게 말고, 내쉬며 바닥 쪽으로 펴기",
+      "advancedGuide": "골반부터 목까지 척추 마디마디를 하나씩 움직이는 느낌으로 천천히 분절"
     },
     {
       "id": "EX_THORACIC_ROTATION",
@@ -223,8 +223,8 @@
       "targetValue": 12,
       "setsCount": 3,
       "incrementStep": 1,
-      "beginnerGuide": "옆으로 누워 팔을 반대편으로 천천히 넘기며 가슴 앞쪽을 열어준다.",
-      "advancedGuide": "네발기기 자세에서 한 손을 머리 뒤에 대고 팔꿈치를 천장 쪽으로 최대한 들어 올린다."
+      "beginnerGuide": "옆으로 누워 팔을 반대편으로 천천히 넘기며 가슴 앞쪽을 열어줌",
+      "advancedGuide": "네발기기 자세에서 한 손을 머리 뒤에 대고 팔꿈치를 천장 쪽으로 최대한 들어 올림"
     },
     {
       "id": "EX_LANDING",
@@ -238,8 +238,8 @@
       "targetValue": 12,
       "setsCount": 3,
       "incrementStep": 1,
-      "beginnerGuide": "제자리에서 가볍게 뛰어내리며 앞꿈치로 딛고 무릎을 굽혀 소리 없이 착지한다.",
-      "advancedGuide": "낮은 턱에서 착지하는 동시에 양손을 바닥에 짚거나 어깨 롤링으로 충격을 분산한다."
+      "beginnerGuide": "제자리에서 가볍게 뛰어내리며 앞꿈치로 딛고 무릎을 굽혀 소리 없이 착지",
+      "advancedGuide": "낮은 턱에서 착지하는 동시에 양손을 바닥에 짚거나 어깨 롤링으로 충격을 분산"
     },
     {
       "id": "EX_VAULT",
@@ -253,8 +253,8 @@
       "targetValue": 10,
       "setsCount": 3,
       "incrementStep": 1,
-      "beginnerGuide": "허리 높이 구조물에 양손을 짚고 두 발을 모아 옆으로 안전하게 걸쳐 넘는다.",
-      "advancedGuide": "한 손과 반대쪽 발로 구조물을 가볍게 지지하며 신속하게 몸을 측면으로 띄워 통과한다."
+      "beginnerGuide": "허리 높이 구조물에 양손을 짚고 두 발을 모아 옆으로 안전하게 걸쳐 넘기",
+      "advancedGuide": "한 손과 반대쪽 발로 구조물을 가볍게 지지하며 신속하게 몸을 측면으로 띄워 통과"
     },
     {
       "id": "EX_QUICK_FEET",
@@ -268,8 +268,8 @@
       "targetValue": 20,
       "setsCount": 4,
       "incrementStep": 2,
-      "beginnerGuide": "뒤꿈치를 든 상태로 제자리에서 부드럽고 가볍게 발을 굴러준다.",
-      "advancedGuide": "최대 속도로 제자리 잔발을 구르다가 멈춤 신호에 맞춰 즉시 자세를 낮춰 정지한다."
+      "beginnerGuide": "뒤꿈치를 든 상태로 제자리에서 부드럽고 가볍게 발을 굴리기",
+      "advancedGuide": "최대 속도로 제자리 잔발을 구르다가 멈춤 신호에 맞춰 즉시 자세를 낮춰 정지"
     },
     {
       "id": "EX_BOXING_HEAVYBAG",
@@ -283,8 +283,8 @@
       "targetValue": 20,
       "setsCount": 3,
       "incrementStep": 1,
-      "beginnerGuide": "손목을 고정한 채 가볍게 잽과 스트레이트를 뻗어 정타를 맞히는 자세를 익힌다.",
-      "advancedGuide": "하체 회전력을 실어 묵직하게 스트레이트와 훅을 타격한 뒤 즉시 가드로 복귀한다."
+      "beginnerGuide": "손목을 고정한 채 가볍게 잽과 스트레이트를 뻗어 정타를 맞히는 자세",
+      "advancedGuide": "하체 회전력을 실어 묵직하게 스트레이트와 훅을 타격한 뒤 즉시 가드로 복귀"
     },
     {
       "id": "EX_BOXING_JUMPROPE",
@@ -298,8 +298,8 @@
       "targetValue": 60,
       "setsCount": 3,
       "incrementStep": 3,
-      "beginnerGuide": "발끝으로 낮게 점프하며 걸리지 않도록 일정한 속도로 양발 뛰기를 한다.",
-      "advancedGuide": "좌우 번갈아 뛰기나 템포를 올린 빠른 스피드 줄넘기로 하체 탄력을 유지한다."
+      "beginnerGuide": "발끝으로 낮게 점프하며 걸리지 않도록 일정한 속도로 양발 뛰기",
+      "advancedGuide": "좌우 번갈아 뛰기나 템포를 올린 빠른 스피드 줄넘기로 하체 탄력을 유지"
     }
   ]
 }
