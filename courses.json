@@ -1,6 +1,71 @@
 {
-  "version": 7,
+  "version": 1,
   "commonJson": [
+    {
+      "courseCategory": "HEALTH_CARE",
+      "title": "10년 건강 섭생 코스",
+      "hanjaTitle": "養生延壽法",
+      "description": "10년을 내다보는 주간 섭생 비급\n월·목(전신근력) → 화·금(유산소) → 수(회복스트레칭) → 토(야외활동) → 일(휴식)",
+      "iconEmoji": "🌿",
+      "schedules": [
+        {
+          "exerciseId": "EX_SQUAT",
+          "startOffsetDays": 0,
+          "durationDays": 49,
+          "level": "BEGINNER",
+          "repeatDays": "MONDAY,THURSDAY"
+        },
+        {
+          "exerciseId": "EX_PUSHUP",
+          "startOffsetDays": 0,
+          "durationDays": 49,
+          "level": "BEGINNER",
+          "repeatDays": "MONDAY,THURSDAY"
+        },
+        {
+          "exerciseId": "EX_PLANK",
+          "startOffsetDays": 0,
+          "durationDays": 49,
+          "level": "BEGINNER",
+          "repeatDays": "MONDAY,THURSDAY"
+        },
+        {
+          "exerciseId": "EX_CALF_RAISE",
+          "startOffsetDays": 0,
+          "durationDays": 49,
+          "level": "BEGINNER",
+          "repeatDays": "MONDAY,THURSDAY"
+        },
+        {
+          "exerciseId": "EX_FAST_WALK",
+          "startOffsetDays": 0,
+          "durationDays": 49,
+          "level": "ADVANCED",
+          "repeatDays": "TUESDAY,FRIDAY"
+        },
+        {
+          "exerciseId": "EX_SLOW_WALK",
+          "startOffsetDays": 0,
+          "durationDays": 49,
+          "level": "ADVANCED",
+          "repeatDays": "WEDNESDAY"
+        },
+        {
+          "exerciseId": "EX_STRETCH",
+          "startOffsetDays": 0,
+          "durationDays": 49,
+          "level": "BEGINNER",
+          "repeatDays": "TUESDAY,FRIDAY,WEDNESDAY"
+        },
+        {
+          "exerciseId": "EX_OUTDOOR_TREK",
+          "startOffsetDays": 0,
+          "durationDays": 49,
+          "level": "ADVANCED",
+          "repeatDays": "SATURDAY"
+        }
+      ]
+    },
     {
       "courseCategory": "T100_GRADE1",
       "title": "국민체력100 1등급 코스",
@@ -33,199 +98,36 @@
           "durationDays": 49
         }
       ]
-    },
-    {
-      "courseCategory": "FITNESS_BOOST",
-      "title": "전신 근력 코스",
-      "description": "상·하체 및 코어 대근육 저항력을 끌어올리고 관절 지지력을 단련하는 49일 근력 코스",
-      "iconEmoji": "💪",
-      "schedules": [
-        {
-          "exerciseId": "EX_STRETCH",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_SQUAT",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_PUSHUP",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_PLANK",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_HANGING",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        }
-      ]
-    },
-    {
-      "courseCategory": "ENDURANCE_CARDIO",
-      "title": "심폐 강화 코스",
-      "description": "걷기와 인터벌 러닝, 전신 섀도우를 통해 지치지 않는 스태미나와 호흡력을 완성하는 49일 코스",
-      "iconEmoji": "🏃",
-      "schedules": [
-        {
-          "exerciseId": "EX_STRETCH",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_WALK",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_RUN",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_BOXING_SHADOW",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        }
-      ]
-    },
-    {
-      "courseCategory": "SKILL_AGILITY",
-      "title": "민첩성 강화 코스",
-      "description": "잔발 스텝과 안전 착지·도약 기술을 익혀 신체 반응 속도와 제동력을 높이는 49일 코스",
-      "iconEmoji": "⚡",
-      "schedules": [
-        {
-          "exerciseId": "EX_STRETCH",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_QUICK_FEET",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_LANDING",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_VAULT",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        }
-      ]
     }
   ],
   "expertJson": [
     {
       "courseCategory": "BOXING",
-      "title": "복싱",
+      "title": "복싱(준비중)",
       "description": "상체 스피드와 체계적인 풋워크를 활용한 심폐 지구력 및 스텝 단련 수련",
       "iconEmoji": "🥊",
-      "schedules": [
-        {
-          "exerciseId": "EX_STRETCH",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_BOXING_SHADOW",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_QUICK_FEET",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_BOXING_JUMPROPE",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_BOXING_HEAVYBAG",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        }
-      ]
+      "schedules": []
     },
     {
       "courseCategory": "SYSTEMA",
       "title": "시스테마 (준비중)",
       "description": "특수부대 무술 원리를 적용한 호흡 중심의 긴장 해제 및 바디 컨트롤 수련",
       "iconEmoji": "🛡️",
-      "schedules": [
-        {
-          "exerciseId": "EX_BREATHING",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_RELAX_FLOW",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_FALL_SAFETY",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        }
-      ]
+      "schedules": []
     },
     {
       "courseCategory": "WINGCHUN",
       "title": "영춘권 (준비중)",
       "description": "중심선 통제와 팔관절 저항력을 다지는 상체 정밀 제어 수련",
       "iconEmoji": "🥋",
-      "schedules": [
-        {
-          "exerciseId": "EX_CENTERLINE_STANCE",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_ELBOW_ELASTIC",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_SHORT_PUNCH",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        }
-      ]
+      "schedules": []
     },
     {
       "courseCategory": "CLIMBING",
       "title": "클라이밍 (준비중)",
       "description": "벽을 타는 경공의 원리를 응용한 전완근, 악력 및 상체 당기기 수련",
       "iconEmoji": "🧗",
-      "schedules": [
-        {
-          "exerciseId": "EX_DEAD_HANG",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_INVERTED_ROW",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
-          "exerciseId": "EX_PULL_UP_HOLD",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        }
-      ]
+      "schedules": []
     }
   ]
 }
