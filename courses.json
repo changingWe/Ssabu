@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "commonJson": [
     {
       "courseCategory": "HEALTH_CARE",
@@ -8,6 +8,27 @@
       "description": "10년을 내다보는 주간 섭생 비급\n월·목(전신근력) → 화·금(유산소) → 수(회복스트레칭) → 토(야외활동) → 일(휴식)",
       "iconEmoji": "🌿",
       "schedules": [
+         {
+          "exerciseId": "EX_FAST_WALK",
+          "startOffsetDays": 0,
+          "durationDays": 49,
+          "level": "ADVANCED",
+          "repeatDays": "TUESDAY,FRIDAY"
+        },
+        {
+          "exerciseId": "EX_SLOW_WALK",
+          "startOffsetDays": 0,
+          "durationDays": 49,
+          "level": "ADVANCED",
+          "repeatDays": "WEDNESDAY"
+        },
+        {
+          "exerciseId": "EX_STRETCH",
+          "startOffsetDays": 0,
+          "durationDays": 49,
+          "level": "BEGINNER",
+          "repeatDays": "TUESDAY,FRIDAY,WEDNESDAY"
+        },
         {
           "exerciseId": "EX_SQUAT",
           "startOffsetDays": 0,
@@ -37,27 +58,6 @@
           "repeatDays": "MONDAY,THURSDAY"
         },
         {
-          "exerciseId": "EX_FAST_WALK",
-          "startOffsetDays": 0,
-          "durationDays": 49,
-          "level": "ADVANCED",
-          "repeatDays": "TUESDAY,FRIDAY"
-        },
-        {
-          "exerciseId": "EX_SLOW_WALK",
-          "startOffsetDays": 0,
-          "durationDays": 49,
-          "level": "ADVANCED",
-          "repeatDays": "WEDNESDAY"
-        },
-        {
-          "exerciseId": "EX_STRETCH",
-          "startOffsetDays": 0,
-          "durationDays": 49,
-          "level": "BEGINNER",
-          "repeatDays": "TUESDAY,FRIDAY,WEDNESDAY"
-        },
-        {
           "exerciseId": "EX_OUTDOOR_TREK",
           "startOffsetDays": 0,
           "durationDays": 49,
@@ -73,29 +73,39 @@
       "iconEmoji": "🏛️",
       "schedules": [
         {
-          "exerciseId": "EX_T100_SHUTTLE_RUN",
-          "startOffsetDays": 0,
-          "durationDays": 49
-        },
-        {
           "exerciseId": "EX_T100_SIT_FORWARD",
           "startOffsetDays": 0,
-          "durationDays": 49
+          "durationDays": 49,
+          "level": "BEGINNER",
+          "repeatDays": "MONDAY,WEDNESDAY,FRIDAY"
+        },
+        {
+          "exerciseId": "EX_T100_SHUTTLE_RUN",
+          "startOffsetDays": 0,
+          "durationDays": 49,
+          "level": "BEGINNER",
+          "repeatDays": "TUESDAY,FRIDAY"
         },
         {
           "exerciseId": "EX_T100_GRIP",
           "startOffsetDays": 0,
-          "durationDays": 49
+          "durationDays": 49,
+          "level": "ADVANCED",
+          "repeatDays": "MONDAY,THURSDAY"
         },
         {
           "exerciseId": "EX_T100_SITUP",
           "startOffsetDays": 0,
-          "durationDays": 49
+          "durationDays": 49,
+          "level": "BEGINNER",
+          "repeatDays": "TUESDAY,SATURDAY"
         },
         {
           "exerciseId": "EX_T100_BROAD_JUMP",
           "startOffsetDays": 0,
-          "durationDays": 49
+          "durationDays": 49,
+          "level": "BEGINNER",
+          "repeatDays": "WEDNESDAY,SATURDAY"
         }
       ]
     }
