@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "exercises": [
     {
       "id": "EX_SLOW_WALK",
@@ -14,7 +14,7 @@
       "unitType": "MINUTE",
       "targetValue": 30,
       "setsCount": 1,
-      "incrementStep": 5
+      "incrementStep": 1
     },
     {
       "id": "EX_FAST_WALK",
@@ -29,7 +29,7 @@
       "unitType": "MINUTE",
       "targetValue": 40,
       "setsCount": 1,
-      "incrementStep": 2
+      "incrementStep": 1
     },
     {
       "id": "EX_RUN",
@@ -42,7 +42,7 @@
       "unitType": "SECOND",
       "targetValue": 60,
       "setsCount": 5,
-      "incrementStep": 3,
+      "incrementStep": 2,
       "beginnerGuide": "빠르게 걷기와 가벼운 조깅을 번갈아 가며 편안한 호흡 리듬을 유지",
       "advancedGuide": "빠른 러닝 페이스와 고속 질주를 반복하며 심박수를 높임"
     },
@@ -59,7 +59,7 @@
       "unitType": "MINUTE",
       "targetValue": 90,
       "setsCount": 1,
-      "incrementStep": 5
+      "incrementStep": 2
     },
     {
       "id": "EX_SQUAT",
@@ -102,7 +102,7 @@
       "unitType": "SECOND",
       "targetValue": 40,
       "setsCount": 3,
-      "incrementStep": 2,
+      "incrementStep": 1,
       "beginnerGuide": "팔꿈치와 무릎을 바닥에 대고 배꼽을 당겨 올려 척추를 수평으로 유지",
       "advancedGuide": "무릎을 떼고 정식 자세로 골반이 처지거나 솟지 않게 몸 전체를 널빤지처럼 유지"
     },
@@ -119,7 +119,7 @@
       "unitType": "COUNT",
       "targetValue": 16,
       "setsCount": 2,
-      "incrementStep": 2
+      "incrementStep": 1
     },
     {
       "id": "EX_CALF_RAISE",
@@ -134,7 +134,7 @@
       "unitType": "COUNT",
       "targetValue": 15,
       "setsCount": 3,
-      "incrementStep": 2
+      "incrementStep": 1
     },
     {
       "id": "EX_THORACIC_ROTATION",
@@ -164,7 +164,7 @@
       "unitType": "SECOND",
       "targetValue": 30,
       "setsCount": 2,
-      "incrementStep": 5
+      "incrementStep": 1
     },
     {
       "id": "EX_LANDING",
@@ -207,7 +207,7 @@
       "unitType": "SECOND",
       "targetValue": 20,
       "setsCount": 4,
-      "incrementStep": 2,
+      "incrementStep": 1,
       "beginnerGuide": "뒤꿈치를 든 상태로 제자리에서 부드럽고 가볍게 발을 굴리기",
       "advancedGuide": "최대 속도로 제자리 잔발을 구르다가 멈춤 신호에 맞춰 즉시 자세를 낮춰 정지"
     },
@@ -224,7 +224,7 @@
       "unitType": "COUNT",
       "targetValue": 25,
       "setsCount": 4,
-      "incrementStep": 5
+      "incrementStep": 1
     },
     {
       "id": "EX_T100_GRIP",
@@ -239,7 +239,7 @@
       "unitType": "SECOND",
       "targetValue": 30,
       "setsCount": 4,
-      "incrementStep": 5
+      "incrementStep": 1
     },
     {
       "id": "EX_T100_SITUP",
@@ -254,7 +254,7 @@
       "unitType": "COUNT",
       "targetValue": 25,
       "setsCount": 4,
-      "incrementStep": 3
+      "incrementStep": 1
     },
     {
       "id": "EX_T100_SIT_FORWARD",
@@ -269,7 +269,7 @@
       "unitType": "SECOND",
       "targetValue": 30,
       "setsCount": 4,
-      "incrementStep": 5
+      "incrementStep": 1
     },
     {
       "id": "EX_T100_BROAD_JUMP",
@@ -284,7 +284,7 @@
       "unitType": "COUNT",
       "targetValue": 12,
       "setsCount": 4,
-      "incrementStep": 2
+      "incrementStep": 1
     }
   ]
 }
