@@ -11,17 +11,17 @@ if not api_key:
 
 genai.configure(api_key=api_key)
 
-# 2. 오늘 날짜 구하기 (Asia/Seoul 기준)
+# 2. 오늘 날짜 구하기 (예: 2026-08-11)
 today_str = datetime.now(ZoneInfo("Asia/Seoul")).strftime("%Y-%m-%d")
 
-# 3. Gemini 모델 설정
+# 3. Gemini 모델 설정 (기존 설정 유지)
 generation_config = {
     "temperature": 0.7,
     "response_mime_type": "application/json",
 }
 
 model = genai.GenerativeModel(
-    model_name="gemini-2.5-flash",
+    model_name="gemini-3.5-flash-lite",
     generation_config=generation_config,
     system_instruction="""너는 운동습관을 개선하려는 제자에게 현실적인 내공과 경공, 신체 단련을 가이드하는 
     통찰력이 뛰어나면서 지혜롭고 재치가 있는 무림 고수 '싸부'이다. 
@@ -48,7 +48,7 @@ print(f"[{today_str}] 사부의 훈수를 생성하는 중...")
 response = model.generate_content(prompt)
 result_json_str = response.text.strip()
 
-# JSON 유효성 검증 및 파싱
+# JSON 유효성 검증
 try:
     parsed_data = json.loads(result_json_str)
 except json.JSONDecodeError:
@@ -57,17 +57,18 @@ except json.JSONDecodeError:
         "advice": "오늘 하루도 관절을 아끼고 바닥을 움켜쥐듯 차분하게 수련에 임하게나."
     }
 
-# 4-1. 당일 단일 파일 저장 (앱에서 실시간 조회용)
-daily_file_path = "daily_advice.json"
-with open(daily_file_path, "w", encoding="utf-8") as f:
+# 4. 당일 단일 JSON 파일 저장 (앱 실시간 조회용)
+file_path = "daily_advice.json"
+with open(file_path, "w", encoding="utf-8") as f:
     json.dump(parsed_data, f, ensure_ascii=False, indent=2)
-print(f"✅ 당일 조언 파일 갱신 완료: {daily_file_path}")
 
-# 4-2. 누적 아카이브 파일 저장 (동일 날짜 덮어쓰기 로직)
+print("✅ 일일 조언 JSON 생성 완료!")
+
+# 5. 아카이브 JSON 파일 처리 (누적 및 동일 날짜 덮어쓰기)
 archive_file_path = "daily_advice_archive.json"
 archive_list = []
 
-# 기존 아카이브 파일이 존재하면 불러오기
+# 기존 아카이브가 있으면 불러오기
 if os.path.exists(archive_file_path):
     try:
         with open(archive_file_path, "r", encoding="utf-8") as f:
@@ -77,24 +78,22 @@ if os.path.exists(archive_file_path):
     except (json.JSONDecodeError, IOError):
         archive_list = []
 
-# 동일 날짜가 있으면 덮어쓰기, 없으면 새로 추가
-updated = False
-for i, item in enumerate(archive_list):
-    if item.get("date") == parsed_data["date"]:
-        archive_list[i] = parsed_data  # 덮어쓰기
-        updated = True
-        print(f"🔄 [{parsed_data['date']}] 기존 아카이브 기록을 갱신했습니다.")
+# 동일 날짜 검사 후 덮어쓰기 또는 신규 추가
+is_updated = False
+for idx, item in enumerate(archive_list):
+    if item.get("date") == parsed_data.get("date"):
+        archive_list[idx] = parsed_data  # 덮어쓰기
+        is_updated = True
         break
 
-if not updated:
-    archive_list.append(parsed_data)  # 신규 추가
-    print(f"➕ [{parsed_data['date']}] 신규 조언을 아카이브에 추가했습니다.")
+if not is_updated:
+    archive_list.append(parsed_data)  # 새로 추가
 
-# 날짜 순서대로 오름차순 정렬 (과거 -> 최신)
+# 날짜 기준 오름차순 정렬
 archive_list.sort(key=lambda x: x.get("date", ""))
 
-# 아카이브 파일 쓰기
+# 아카이브 파일 저장
 with open(archive_file_path, "w", encoding="utf-8") as f:
     json.dump(archive_list, f, ensure_ascii=False, indent=2)
 
-print(f"📚 전체 아카이브 누적 완료 (총 {len(archive_list)}건)")
+print(f"📚 아카이브 저장 완료 (총 {len(archive_list)}건)")
