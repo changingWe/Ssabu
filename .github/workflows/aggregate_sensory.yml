@@ -3,7 +3,7 @@ name: Aggregate Sensory Stats
 on:
   schedule:
     # ⏰ 매일 자정(UTC 15:00 = 한국시간 00:00) 또는 3시간마다 실행
-    - cron: '10 * * * *'
+    - cron: '10 */3 * * *'
   workflow_dispatch: # 필요할 때 깃허브 웹에서 'Run workflow' 버튼으로 즉시 수동 실행 가능
 
 jobs:
